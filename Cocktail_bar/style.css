@@ -15,7 +15,7 @@ a.dropdown-item{
     color: #212529;
 }
 .backimage{
-    background-image: url('images/background.jpg');
+    background-image: url('./images/background.jpg');
     background-size: cover;
     height: 100vh;
 }
