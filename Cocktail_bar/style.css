@@ -1,0 +1,60 @@
+body{
+    background-color: #1b0101;
+}
+a.navbar-brand,h5.offcanvas-title{
+    font-family: 'Italianno', cursive;
+    color: #d90429;
+}
+h5.offcanvas-title{
+    font-size: 2rem;
+}
+a.dropdown-item{
+    color:white;  /*this is because text-white in bootstrap has !important set */
+}
+.navbar-dark .navbar-toggler{
+    color: #212529;
+}
+.backimage{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+figure{
+    font-family: 'Italianno', cursive;
+}
+a.textbyme{
+    font-family: 'Italianno', cursive;
+    font-size: 2rem;
+}
+a.dropdown-item:hover{
+    width: fit-content;
+    color: #d90429;
+    background-color: #212529;
+    box-shadow: 0 0.5em 0.53em -0.4em #d90429;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.btn-outline-secondary:hover{
+    color: white;
+    background-color: black;
+    border-color: #d90429;
+    box-shadow: 0 0.5em 0.53em -0.4em #d90429;
+
+}
+a.btn-outline-secondary:hover{
+    color: white;
+    background-color: black;
+    border-color: #d90429;
+    box-shadow: 0 0.5em 0.53em -0.4em #d90429;
+
+}
+button.navbar-toggler:hover{
+    background-color: black;
+    border: 2px solid #d90429;
+    box-shadow: 0 0.5em 0.53em -0.4em #d90429;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+@media (max-width: 768px) { 
+    .media1{
+        font-size: 4rem;
+    }
+}
